@@ -1,0 +1,17 @@
+Coloque aqui suas imagens reais, usando estes nomes
+(ou ajuste o atributo "src" nas páginas HTML se preferir outros nomes):
+
+  foto-perfil.jpg    -> sua foto (index.html)
+  cidade-1.jpg       -> foto da sua cidade (cidade.html)
+  cidade-2.jpg       -> foto da sua cidade (cidade.html)
+  sonho-1.jpg        -> imagem relacionada ao seu sonho (sonho.html)
+  sonho-2.jpg        -> imagem relacionada ao seu sonho (sonho.html)
+  sonho-3.jpg        -> imagem relacionada ao seu sonho (sonho.html)
+  inspiracao.jpg     -> foto da pessoa que te inspira (inspiracao.html)
+  tema-1.jpg         -> imagem do item 1 da página temática
+  tema-2.jpg         -> imagem do item 2 da página temática
+  tema-3.jpg         -> imagem do item 3 da página temática
+
+Dicas:
+- Nomes de arquivo em minúsculas, sem espaços ou acentos.
+- Apague este arquivo antes de entregar o .zip final.
