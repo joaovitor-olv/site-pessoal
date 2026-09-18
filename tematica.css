@@ -1,18 +1,9 @@
-/* ==========================================================================
-   tematica.css
-   Estilo específico da página temática "Jogos e músicas" (tematica.html).
-   Cuida do sumário interno da página, dos artigos de cada item, das
-   imagens/vídeo e do bloco de curiosidades (aside/details).
-   ========================================================================== */
-
 main {
   max-width: 800px;
   margin: 0 auto;
   padding: 1.5rem;
 }
 
-/* Sumário interno "Nesta página" (segunda <nav> da página, sem o visual
-   de barra escura do menu principal) */
 .nav-secundaria {
   background-color: #FFFFFF;
   border: 1px solid #1D3557;
@@ -37,7 +28,6 @@ main {
   color: #E63946;
 }
 
-/* Cada item (jogo/artista) com espaçamento proposital entre eles */
 article {
   margin-bottom: 2rem;
   padding: 1rem;
@@ -70,7 +60,6 @@ article iframe {
   margin: 1rem auto;
 }
 
-/* Bloco de curiosidades extras */
 aside {
   margin-top: 1.5rem;
   padding: 1rem;
