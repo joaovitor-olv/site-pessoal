@@ -1,1 +1,49 @@
 
+/* ==========================================================================
+   index.css
+   Estilo específico da página "Sobre mim" (index.html).
+   Cuida apenas do que é próprio desta página: o cabeçalho de apresentação,
+   a foto de perfil, as seções de conteúdo e a lista de contatos.
+   ========================================================================== */
+
+header p {
+  max-width: 700px;
+  margin: 0.8rem auto 0 auto;
+  color: #F7F5F0;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+/* Seção da foto de perfil com espaçamento proposital ao redor da imagem */
+figure {
+  text-align: center;
+  margin: 1.5rem 0;
+  padding: 1rem;
+  border: 1px solid #1D3557;
+}
+
+figure img {
+  max-width: 100%;
+  border: 3px solid #E63946;
+}
+
+figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #1D3557;
+}
+
+/* Lista de contatos e redes sociais */
+main ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+main ul li {
+  padding: 0.4rem 0;
+  border-bottom: 1px solid #1D3557;
+}
