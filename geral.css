@@ -1,0 +1,159 @@
+/* ==========================================================================
+   geral.css
+   Folha de estilo COMPARTILHADA por todas as 5 páginas do site.
+   Aqui ficam apenas os elementos que se repetem em todas as páginas:
+   fundo, fonte, títulos, menu de navegação, links e o botão "voltar ao topo".
+   Cada página tem também a sua própria folha (ex.: index.css) para o que é
+   específico dela.
+
+   IDENTIDADE VISUAL DO SITE
+   - Cor base 1 (fundo geral):        #F7F5F0
+   - Cor base 2 (cabeçalho/menu/rodapé): #1D3557
+   - Cor base 3 (texto do corpo):     #333333
+   - Cor de destaque (links, hover):  #E63946
+   - Fonte principal: 'Poppins' (Google Fonts)
+   - Fonte de fallback: 'Segoe UI', sans-serif
+   ========================================================================== */
+
+/* ----- Reset simples de espaçamento (seletor de elemento) ----- */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F7F5F0;
+  color: #333333;
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+  line-height: 1.6;
+}
+
+/* ----- Títulos (seletores de elemento) ----- */
+h1,
+h2 {
+  color: #1D3557;
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  border-bottom: 2px solid #E63946;
+  padding-bottom: 0.3rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+/* ----- Cabeçalho de cada página (seletor de elemento) ----- */
+header {
+  background-color: #1D3557;
+  color: #F7F5F0;
+  padding: 2rem 1.5rem;
+  border-bottom: 2px solid #E63946;
+}
+
+header h1 {
+  color: #F7F5F0;
+}
+
+/* Seletor de ID: o cabeçalho também é o alvo do botão "voltar ao topo"
+   (href="#topo"). Usamos o ID para reforçar essa marcação visualmente com
+   uma borda mais grossa por cima da definida no seletor de elemento acima,
+   demonstrando a especificidade (ID > elemento). */
+#topo {
+  border-bottom: 5px solid #E63946;
+}
+
+/* ----- Menu de navegação principal (presente nas 5 páginas) ----- */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #1D3557;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block; /* ver página "sobre-o-css.html" */
+  margin: 0;
+}
+
+nav ul li a {
+  display: inline-block;
+  color: #F7F5F0;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 1rem 1.2rem;
+}
+
+/* Seletor de classe: estilo específico do menu principal do site
+   (a segunda <nav> da página temática NÃO tem esta classe, então não
+   recebe este visual de "barra escura"). */
+.menu-principal {
+  border-bottom: 1px solid #E63946;
+}
+
+/* Hover do menu: precisa mudar visivelmente ao passar o mouse */
+.menu-principal a:hover {
+  background-color: #E63946;
+  color: #FFFFFF;
+}
+
+/* ----- Links dentro do conteúdo (fora do menu) ----- */
+main a {
+  color: #E63946;
+  text-decoration: underline;
+}
+
+main a:hover {
+  color: #1D3557;
+}
+
+/* ----- Botão "voltar ao topo" (presente nas 5 páginas) ----- */
+.area-topo {
+  text-align: right;
+  margin: 1.5rem 0;
+}
+
+.botao-topo {
+  display: inline-block;
+  background-color: #1D3557;
+  color: #F7F5F0;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border: 2px solid #1D3557;
+  font-weight: 600;
+}
+
+/* Hover do botão "voltar ao topo": muda de cor de fundo e usa transparência
+   (rgba) para o efeito, conforme conceito de transparência visto em aula */
+.botao-topo:hover {
+  background-color: rgba(230, 57, 70, 0.85);
+  border-color: #E63946;
+  color: #FFFFFF;
+}
+
+/* ----- Rodapé (element selector), igual nas 5 páginas ----- */
+footer {
+  background-color: #1D3557;
+  color: #F7F5F0;
+  text-align: center;
+  padding: 1.2rem;
+  margin-top: 2rem;
+}
+
+footer a {
+  color: #F7F5F0;
+}
+
+/* ----- Destaque de texto (usado em mais de uma página) ----- */
+mark {
+  background-color: rgba(230, 57, 70, 0.25);
+  color: #1D3557;
+  padding: 0 0.2rem;
+}
