@@ -1,17 +1,8 @@
-/* ==========================================================================
-   cidade.css
-   Estilo específico da página "Minha cidade" (cidade.html).
-   Cuida dos artigos sobre a cidade, das imagens/figuras e do mapa embutido.
-   ========================================================================== */
-
 main {
   max-width: 800px;
   margin: 0 auto;
   padding: 1.5rem;
 }
-
-/* Cada bloco de conteúdo (história, pontos turísticos, curiosidades) com
-   espaçamento proposital entre eles */
 article {
   margin-bottom: 2rem;
   padding-bottom: 1rem;
@@ -35,8 +26,6 @@ figcaption {
   font-size: 0.9rem;
   color: #1D3557;
 }
-
-/* Seção do mapa */
 section iframe {
   width: 100%;
   max-width: 600px;
