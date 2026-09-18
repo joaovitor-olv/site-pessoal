@@ -3,10 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <title>João Vitor Oliveira Manso - Sobre mim</title>
+
+  <!-- Fonte principal (Google Fonts) + fallback definido no CSS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS compartilhada por todas as páginas -->
+  <link rel="stylesheet" href="geral.css">
+  <!-- CSS específica desta página -->
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
 
-  <header>
+  <header id="topo">
     <h1>João Vitor Oliveira Manso</h1>
     <p>Sou João Vitor, estudante do Instituto Federal de São Paulo (IFSP), Campus Votuporanga.
        Atualmente estudo na área de tecnologia e também trabalho. 
@@ -14,7 +24,7 @@
   </header>
 
   <nav>     
-    <ul>
+    <ul class="menu-principal">
       <li><a href="index.html">Sobre mim</a></li>
       <li><a href="cidade.html">Minha cidade</a></li>
       <li><a href="sonho.html">Um sonho</a></li>
@@ -51,6 +61,8 @@
         <li><a href="https://www.instagram.com/joaov_olm/">Instagram</a></li>
       </ul>
     </section>
+
+    <p class="area-topo"><a href="#topo" class="botao-topo">Voltar ao topo</a></p>
   </main>
 
   <footer>
