@@ -1,3 +1,4 @@
+
 main {
   max-width: 800px;
   margin: 0 auto;
@@ -7,10 +8,10 @@ main {
 main small {
   color: #1D3557;
 }
+
 main figure {
-  display: inline-block;
-  width: 260px;
-  margin: 0.8rem 1rem;
+  max-width: 320px;
+  margin: 1rem auto;
   padding: 0.8rem;
   border: 1px solid #1D3557;
   background-color: #FFFFFF;
