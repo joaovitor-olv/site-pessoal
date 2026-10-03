@@ -118,9 +118,38 @@ footer a {
   color: #F7F5F0;
 }
 
-/* ----- Destaque de texto (usado em mais de uma página) ----- */
 mark {
   background-color: rgba(230, 57, 70, 0.25);
   color: #1D3557;
   padding: 0 0.2rem;
+}
+
+.menu-principal {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-principal a {
+  display: block;
+}
+
+@media (min-width: 64rem) {
+  .menu-principal {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .menu-principal li {
+    border-bottom: none;
+    border-right: 1px solid #E63946;
+  }
+
+  .menu-principal li:last-child {
+    border-right: none;
+  }
+
+  .menu-principal a {
+    padding: 0.9rem 0.8rem;
+  }
 }
