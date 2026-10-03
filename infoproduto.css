@@ -1,0 +1,346 @@
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.botao-cta {
+  display: block;
+  background-color: #E63946;
+  color: #FFFFFF;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding: 0.8rem 1.5rem;
+  border: 2px solid #E63946;
+}
+
+.botao-cta:hover {
+  background-color: #F7F5F0;
+  color: #1D3557;
+  border-color: #E63946;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.hero-texto p {
+  margin: 0.8rem 0 0 0;
+}
+
+.capa {
+  margin-top: 1.5rem;
+  padding: 1.2rem;
+  background-color: #F7F5F0;
+  color: #1D3557;
+  border: 3px solid #E63946;
+  text-align: center;
+}
+
+.capa p {
+  margin: 0.3rem 0;
+}
+
+.capa-tipo {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #E63946;
+}
+
+.capa-titulo {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.capa-autor {
+  font-size: 0.9rem;
+}
+
+.so-celular {
+  display: block;
+}
+
+.so-desktop {
+  display: none;
+}
+
+.lista-cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  background-color: #FFFFFF;
+  border: 1px solid #1D3557;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  margin: 0 0 0.5rem 0;
+  color: #1D3557;
+}
+
+.card p {
+  margin: 0;
+}
+
+.area-produto {
+  display: flex;
+  flex-direction: column;
+}
+
+.caixa-preco {
+  background-color: #FFFFFF;
+  border: 3px solid #E63946;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.caixa-preco h2 {
+  margin-top: 0;
+}
+
+.caixa-preco p {
+  margin: 0.5rem 0;
+}
+
+.caixa-preco .preco {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #E63946;
+}
+
+.conteudo-produto {
+  display: flex;
+  flex-direction: column;
+}
+
+.lista-recebe {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.lista-recebe li {
+  padding: 0.6rem 0;
+  border-bottom: 1px solid #1D3557;
+}
+
+.detalhe {
+  display: none;
+}
+
+.autor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.autor figure {
+  margin: 0 0 1rem 0;
+  text-align: center;
+}
+
+.autor img {
+  max-width: 100%;
+  border: 3px solid #E63946;
+}
+
+.autor figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #1D3557;
+}
+
+.autor p {
+  margin: 0;
+}
+
+.lista-depoimentos {
+  display: flex;
+  flex-direction: column;
+}
+
+.depoimento {
+  margin: 0 0 1rem 0;
+  padding: 1rem 1.2rem;
+  background-color: #FFFFFF;
+  border-left: 5px solid #E63946;
+}
+
+.depoimento p {
+  margin: 0 0 0.5rem 0;
+  font-style: italic;
+}
+
+.depoimento cite {
+  font-size: 0.85rem;
+  color: #1D3557;
+}
+
+.lista-faq {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-faq {
+  background-color: #FFFFFF;
+  border: 1px solid #1D3557;
+  padding: 0.8rem 1rem;
+  margin-bottom: 0.8rem;
+}
+
+.item-faq summary {
+  font-weight: 600;
+  color: #1D3557;
+}
+
+.item-faq p {
+  margin: 0.8rem 0 0 0;
+}
+
+.chamada-final {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: #1D3557;
+  color: #F7F5F0;
+  text-align: center;
+}
+
+.chamada-final h2 {
+  margin-top: 0;
+  color: #F7F5F0;
+}
+
+.chamada-final p {
+  margin: 0.5rem 0;
+}
+
+@media (min-width: 48rem) {
+  .so-celular {
+    display: none;
+  }
+
+  .so-desktop {
+    display: block;
+  }
+
+  .botao-cta {
+    display: inline-block;
+  }
+
+  .hero {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .hero-texto {
+    flex: 2;
+  }
+
+  .capa {
+    flex: 1;
+    margin-top: 0;
+    margin-left: 2rem;
+  }
+
+  .lista-cards {
+    flex-direction: row;
+  }
+
+  .card {
+    flex: 1;
+    margin: 0 0.5rem 1rem 0.5rem;
+  }
+
+  .card:first-child {
+    margin-left: 0;
+  }
+
+  .card:last-child {
+    margin-right: 0;
+  }
+
+  .detalhe {
+    display: inline;
+  }
+
+  .autor {
+    flex-direction: row;
+  }
+
+  .autor figure {
+    margin: 0 1.5rem 0 0;
+  }
+
+  .autor p {
+    flex: 1;
+  }
+
+  .lista-depoimentos {
+    flex-direction: row;
+  }
+
+  .depoimento {
+    flex: 1;
+    margin: 0 0.5rem 1rem 0.5rem;
+  }
+
+  .depoimento:first-child {
+    margin-left: 0;
+  }
+
+  .depoimento:last-child {
+    margin-right: 0;
+  }
+
+  .chamada-final {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .chamada-texto {
+    flex: 1;
+    margin-right: 2rem;
+  }
+}
+
+@media (min-width: 64rem) {
+  .area-produto {
+    flex-direction: row-reverse;
+    align-items: flex-start;
+  }
+
+  .caixa-preco {
+    flex: 0 0 17rem;
+    margin: 1.5rem 0 0 2rem;
+  }
+
+  .conteudo-produto {
+    flex: 1;
+  }
+
+  .lista-faq {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .item-faq {
+    flex: 0 0 48%;
+    box-sizing: border-box;
+  }
+}
