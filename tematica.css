@@ -17,6 +17,7 @@ main {
 }
 
 .nav-secundaria ul {
+  background-color: transparent;
   list-style: disc;
   padding-left: 1.5rem;
 }
