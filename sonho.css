@@ -26,3 +26,20 @@ main figcaption {
   font-size: 0.9rem;
   color: #1D3557;
 }
+
+.galeria {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 48rem) {
+  .galeria {
+    flex-direction: row;
+  }
+
+  .galeria figure {
+    flex: 1;
+    max-width: none;
+    margin: 1rem 0.5rem;
+  }
+}
