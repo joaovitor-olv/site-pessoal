@@ -38,3 +38,25 @@ section iframe {
   height: 300px;
   border: 3px solid #1D3557;
 }
+
+.linha-conteudo {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 48rem) {
+  .linha-conteudo {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .linha-conteudo p {
+    flex: 1;
+    margin-top: 1rem;
+  }
+
+  .linha-conteudo figure {
+    flex: 1;
+    margin: 1rem 0 1rem 1.5rem;
+  }
+}
